@@ -21,7 +21,7 @@ clear
 ##-BACKUP AERA-##
 echo -n "Starting Backup..."
 cd /srv/ark_backups
-tar -cvfj $NOW.tar.bz2 /srv/ark #Make Bzip2 Archive
+tar -cvjf $NOW.tar.bz2 /srv/ark #Make Bzip2 Archive
 clear
 sleep 4
 figlet Starting Steam Update
